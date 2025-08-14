@@ -71,7 +71,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <Briefcase className="w-5 h-5 text-white" />
+                <Briefcase className="w-8 h-8 text-white" />
               </div>
               <h1 className="text-xl font-semibold text-slate-900">Job Search Hub</h1>
             </div>
