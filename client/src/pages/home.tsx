@@ -76,7 +76,6 @@ export default function Home() {
               </div>
               <h1 className="text-xl font-semibold text-slate-900">Job Search Hub</h1>
             </div>
-            <div className="text-sm text-slate-500">Find opportunities across platforms</div>
           </div>
         </div>
       </header>
