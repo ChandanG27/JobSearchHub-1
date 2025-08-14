@@ -45,7 +45,7 @@ npm install
 npm run dev
 ```
 
-The application will be available at `http://localhost:5000`
+The application ScreenShot :https://bit.ly/45A72T6
 
 ## Project Structure
 
