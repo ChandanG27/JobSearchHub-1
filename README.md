@@ -1,6 +1,6 @@
 # Job Search Hub
 
-A React-based job search tool that generates instant search links for LinkedIn, Indeed, and Naukri based on user input.
+A modern website that generates instant search links for LinkedIn, Indeed, and Naukri based on user input.
 
 ## Features
 
