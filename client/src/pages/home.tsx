@@ -6,7 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { Search, Briefcase, MapPin, ExternalLink, Zap, CheckCircle, Smartphone } from "lucide-react";
+import { Search, MapPin, ExternalLink, Zap, CheckCircle, Smartphone } from "lucide-react";
+import BriefcaseIcon from "@/components/BriefcaseIcon";
 
 const jobSearchSchema = z.object({
   jobTitle: z.string().min(1, "Please enter a job title"),
@@ -71,7 +72,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <Briefcase className="w-5 h-5 text-white" />
+                <BriefcaseIcon />
               </div>
               <h1 className="text-xl font-semibold text-slate-900">Job Search Hub</h1>
             </div>
@@ -112,7 +113,7 @@ export default function Home() {
                             {...field}
                           />
                           <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-                            <Briefcase className="w-5 h-5 text-slate-400" />
+                            <BriefcaseIcon className="w-5 h-5 text-slate-400" />
                           </div>
                         </div>
                       </FormControl>
